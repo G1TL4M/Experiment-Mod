@@ -1,5 +1,15 @@
 [
 	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"requiredTech": "Agriculture",
+		"uniques": ["Founds a new city <by consuming this unit> <in [Land] tiles>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	{
 		"name": "Phasers",
 		"unitType": "Ranged",
 		"uniqueTo": "Aliens",
@@ -13,5 +23,15 @@
 		"requiredResource": "Uranium",
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
+	},
+	{
+		"name": "Sea Settler",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 450,
+		"requiredTech": "Future Tech",
+		"uniques": ["Founds a new city <by consuming this unit> <<in [Water] tiles>>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
 	}
 ]
