@@ -30,7 +30,7 @@
 		"movement": 3,
 		"cost": 450,
 		"requiredTech": "Future Tech",
-		"uniques": ["Founds a new city <by consuming this unit> <<in [Water] tiles>>", "Excess Food converted to Production when under construction",
+		"uniques": ["Founds a new city <by consuming this unit> <in [Water] tiles>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	}
